@@ -1,7 +1,7 @@
 parameters:
-#    opwoco_forecast.example.class: opwoco\ForecastBundle\Example
+    forecast.url: 'https://api.forecast.io/forecast/'
 
 services:
-#    opwoco_forecast.example:
-#        class: %opwoco_forecast.example.class%
-#        arguments: [@service_id, "plain_value", %parameter%]
+    opwoco.forecast:
+        class: opwoco\ForecastBundle\Service\ForecastService
+        arguments: [%forecast.url%]

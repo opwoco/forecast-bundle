@@ -1,3 +1,0 @@
-opwoco_forecast_homepage:
-    pattern:  /hello/{name}
-    defaults: { _controller: opwocoForecastBundle:Default:index }
