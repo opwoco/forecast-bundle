@@ -1,5 +1,5 @@
 {
-    "name" : "opwoco/ForecastBundle",
+    "name" : "opwoco/forecast-bundle",
     "description" : "A bundle for forecast.io integration in your Symfony projects",
     "type" : "symfony-bundle",
     "authors" : [{
